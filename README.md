@@ -22,9 +22,6 @@ We have shown the details of dataset partition in the paper.
 
 ## Dataset Preprocessing
 We have shown the details of dataset preprocessing in the paper and the embeddings are in respective subdirectories:
-GRU: 
-Embeddings: RNN/yes.npy and RNN/no.npy  
-Label: ./label_yes.npy and ./label_no.npy  
 
 GRU + GNN: 
 Embeddings: RNN+GNN/yes22.npy and RNN+GNN/no22.npy  
@@ -44,12 +41,6 @@ Paper: T. N. Kipf, M. Welling, [Variational Graph Auto-Encoders](https://arxiv.o
 Code: [GAE](https://github.com/zfjsail/gae-pytorch)(https://github.com/tkipf/gae)  
 
 ## Usage
-For GRU:
-```
-$ cd RNN/
-$ python main.py 
-```
-
 For RNN+GNN:
 ```
 $ cd GRU+GNN/
